@@ -158,7 +158,7 @@ export default function Home() {
                       <p className="mt-2 text-sm">
                         <span className="font-medium">Transaction Hash: </span>
                         <a 
-                          href={`https://explorer.monscan.org/tx/${transactionStatus.data.txHash}`}
+                          href={`https://explorer.monchain.org/tx/${transactionStatus.data.txHash}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-blue-400 hover:text-blue-300 underline break-all"
